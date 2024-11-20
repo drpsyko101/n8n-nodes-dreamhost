@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-base.Dreamhost",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://help.dreamhost.com/hc/en-us/articles/4407354972692-Connecting-to-the-DreamHost-API"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://help.dreamhost.com/hc/en-us/articles/217560167-Application-programming-interface-overview"
+			}
+		]
+	}
+}
