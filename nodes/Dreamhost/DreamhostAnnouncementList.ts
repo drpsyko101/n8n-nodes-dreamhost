@@ -13,7 +13,7 @@ const AnnouncementListFields: INodeProperties[] = [
 		displayOptions: {
 			show: {
 				resource: ['announcementList'],
-				operation: ['listSubscribers', 'addSubscribers', 'postAnnouncement'],
+				operation: ['listSubscribers', 'addSubscriber', 'postAnnouncement', 'removeSubscriber'],
 			},
 		},
 		routing: {
@@ -36,7 +36,7 @@ const AnnouncementListFields: INodeProperties[] = [
 		displayOptions: {
 			show: {
 				resource: ['announcementList'],
-				operation: ['listSubscribers', 'addSubscribers', 'postAnnouncement'],
+				operation: ['listSubscribers', 'addSubscriber', 'postAnnouncement', 'removeSubscriber'],
 			},
 		},
 		routing: {
