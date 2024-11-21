@@ -24,15 +24,57 @@ export class Dreamhost implements INodeType {
 					request: {
 						method: 'GET',
 						url: '/',
-						qs: {
-							format: 'json',
-						},
 					},
 				},
 				default: 'announcementList',
 			},
 			...AnnouncementList,
 			...Dns,
+			{
+				displayName: 'Output Format',
+				description: 'The output format of the data',
+				name: 'format',
+				type: 'options',
+				default: 'json',
+				placeholder: 'Add Field',
+				options: [
+					{
+						name: 'HTML',
+						value: 'html',
+					},
+					{
+						name: 'JSON',
+						value: 'json',
+					},
+					{
+						name: 'Perl',
+						value: 'perl',
+					},
+					{
+						name: 'PHP',
+						value: 'php',
+					},
+					{
+						name: 'Tab',
+						value: 'tab',
+					},
+					{
+						name: 'XML',
+						value: 'xml',
+					},
+					{
+						name: 'YAML',
+						value: 'yaml',
+					},
+				],
+				routing: {
+					request: {
+						qs: {
+							format: '={{ $value }}',
+						},
+					},
+				},
+			},
 		],
 		displayName: 'Dreamhost',
 		name: 'dreamhost',

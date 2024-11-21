@@ -72,7 +72,7 @@ const AnnouncementListFields: INodeProperties[] = [
 	{
 		displayName: 'Name',
 		description: 'The name you want to subscribe',
-		name: 'listSubscriberEmail',
+		name: 'listSubscriberName',
 		type: 'string',
 		default: '',
 		placeholder: 'John Doe',
@@ -254,7 +254,7 @@ export const AnnouncementList: INodeProperties[] = [
 		},
 		options: [
 			{
-				name: 'Add A Subsriber',
+				name: 'Add A Subscriber',
 				value: 'addSubscriber',
 				action: 'Add a subscriber',
 				description:
@@ -281,7 +281,7 @@ export const AnnouncementList: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'List Subsribers',
+				name: 'List Subscribers',
 				value: 'listSubscribers',
 				action: 'List subscribers',
 				description: 'List all subscribers from an announcement list',
@@ -307,7 +307,7 @@ export const AnnouncementList: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'Remove A Subsriber',
+				name: 'Remove A Subscriber',
 				value: 'removeSubscriber',
 				action: 'Remove a subscriber',
 				description: 'Immediately removes an email address from an Announcement List',
