@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-dreamhost",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n node to call Dreamhost API",
   "keywords": [
     "n8n-community-node-package"
